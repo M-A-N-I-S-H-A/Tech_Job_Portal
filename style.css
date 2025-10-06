@@ -1,0 +1,26 @@
+body {
+    background-color: #e9ecef; /* Lighter background for a cleaner look */
+    color: #343a40;
+}
+h1 {
+    font-weight: 700;
+    color: #0d6efd !important; /* Blue primary color */
+}
+/* Apply styling to the new card element */
+.card {
+    border: none;
+    border-radius: 0.5rem; /* Rounded corners */
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); /* Soft shadow */
+}
+
+/* Style the table header */
+.table-dark th {
+    background-color: #212529; /* Darker header */
+    border-bottom: 2px solid #0d6efd;
+}
+
+/* Enhance table row hover effect */
+.table-hover tbody tr:hover {
+    --bs-table-hover-bg: #f2f2f2; /* Light grey on hover */
+    color: #212529;
+}
